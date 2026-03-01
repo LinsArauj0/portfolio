@@ -45,6 +45,6 @@ export const PERSONAL_INFO = {
   links: {
     github: 'https://github.com/LinsArauj0',
     linkedin: 'https://www.linkedin.com/in/ericklimaaraujo',
-    email: 'erick.lima64@hotmail.com'
+    email: 'mailto:erick.lima64@hotmail.com?subject=Contato pelo portfólio'
   }
 };
