@@ -16,16 +16,16 @@ export const PROJECTS: Project[] = [
   {
     id: 'api-finance',
     title: 'API Finance',
-    description: 'API REST robusta para gerenciamento de finanças pessoais, permitindo o controle detalhado de categorias e transações com foco em performance e segurança.',
-    technologies: ['Node.js', 'TypeScript', 'MySQL'], //sem express
+    description: 'API REST para gerenciamento de categorias e transações financeiras, refatorada com Express para melhorar organização de rotas, middlewares e escalabilidade do backend.',
+    technologies: ['Node.js', 'TypeScript', 'Express', 'MySQL', 'REST'],
     githubUrl: 'https://github.com/LinsArauj0/api-finance-node-ts'
   },
   {
     id: 'api-todo',
     title: 'API To-Do',
-    description: 'Sistema de gerenciamento de tarefas desenvolvido com arquitetura em camadas, garantindo manutenibilidade e escalabilidade do código.',
-    technologies: ['Node.js', 'TypeScript', 'MySQL'], //sem express
-    githubUrl: 'https://github.com/ericklima/api-todo'
+    description: 'API REST de gerenciamento de tarefas com arquitetura em camadas, focada em manutenibilidade, organização e escalabilidade do backend.',
+    technologies: ['Node.js', 'TypeScript', 'MySQL', 'Clean Architecture'],
+    githubUrl: 'https://github.com/LinsArauj0/api-todo-node-ts'
   }
 ];
 
@@ -33,7 +33,7 @@ export const SKILLS: Skill[] = [
   { name: 'Node.js' },
   { name: 'TypeScript' },
   { name: 'MySQL' },
-  { name: 'Express' },
+  { name: 'Express', isLearning: true },
   { name: 'NestJS', isLearning: true }
 ];
 

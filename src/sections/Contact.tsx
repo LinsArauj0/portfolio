@@ -4,7 +4,7 @@ import { SectionTitle, Button } from "../components/Common";
 
 export const Contact = () => {
   return (
-    <section id="contact" className="py-24 px-6 bg-zinc-900/30">
+    <section id="contact" className="py-16 md:py-24 px-6 bg-zinc-900/30">
       <div className="max-w-4xl mx-auto text-center">
         <SectionTitle subtitle="Estou sempre aberto a conversar sobre novas oportunidades e projetos interessantes.">
           Vamos construir algo juntos?
@@ -12,10 +12,10 @@ export const Contact = () => {
         
         <div className="flex flex-col items-center gap-8">
           <p className="text-zinc-400 text-lg max-w-xl">
-            Se você busca um desenvolvedor comprometido com a qualidade técnica e evolução constante, entre em contato.
+            Se você busca alguém comprometido com qualidade técnica e evolução constante, vamos conversar.
           </p>
           
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-4 w-full">
             <Button href={PERSONAL_INFO.links.linkedin} icon={Linkedin}>
               LinkedIn
             </Button>
@@ -28,7 +28,7 @@ export const Contact = () => {
           </div>
         </div>
         
-        <footer className="mt-24 pt-8 border-t border-zinc-800 text-zinc-500 text-sm">
+        <footer className="mt-14 md:mt-24 pt-8 border-t border-zinc-800 text-zinc-500 text-sm">
           <p>© {new Date().getFullYear()} {PERSONAL_INFO.name}. Desenvolvido com foco e café.</p>
         </footer>
       </div>

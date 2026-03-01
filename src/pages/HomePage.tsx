@@ -6,7 +6,7 @@ import { Contact } from "../sections/Contact";
 
 export const HomePage = () => {
   return (
-    <main className="bg-zinc-950">
+    <main className="bg-zinc-950 scroll-smooth">
       <Hero />
       <About />
       <Stack />

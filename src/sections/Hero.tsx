@@ -5,8 +5,8 @@ import { Button } from "../components/Common";
 
 export const Hero = () => {
   return (
-    <section className="min-h-screen flex flex-col justify-center relative overflow-hidden px-6">
-      {/* Background decoration */}
+    <section className="min-h-[85vh] md:min-h-[100dvh] flex flex-col justify-start md:justify-center relative overflow-hidden px-6 pt-20 md:pt-0 pb-12 md:pb-0">
+      
       <div className="absolute top-1/4 -left-20 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl" />
       
@@ -44,7 +44,7 @@ export const Hero = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
-        className="absolute bottom-10 left-1/2 -translate-x-1/2 text-zinc-500 animate-bounce"
+        className="absolute bottom-6 md:bottom-10 left-1/2 -translate-x-1/2 text-zinc-500 animate-bounce"
       >
         <ChevronDown size={24} />
       </motion.div>
