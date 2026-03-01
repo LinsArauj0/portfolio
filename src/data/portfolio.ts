@@ -17,14 +17,14 @@ export const PROJECTS: Project[] = [
     id: 'api-finance',
     title: 'API Finance',
     description: 'API REST robusta para gerenciamento de finanças pessoais, permitindo o controle detalhado de categorias e transações com foco em performance e segurança.',
-    technologies: ['Node.js', 'TypeScript', 'Express', 'MySQL'],
+    technologies: ['Node.js', 'TypeScript', 'MySQL'], //sem express
     githubUrl: 'https://github.com/LinsArauj0/api-finance-node-ts'
   },
   {
     id: 'api-todo',
     title: 'API To-Do',
     description: 'Sistema de gerenciamento de tarefas desenvolvido com arquitetura em camadas, garantindo manutenibilidade e escalabilidade do código.',
-    technologies: ['Node.js', 'TypeScript', 'Express', 'MySQL'],
+    technologies: ['Node.js', 'TypeScript', 'MySQL'], //sem express
     githubUrl: 'https://github.com/ericklima/api-todo'
   }
 ];
