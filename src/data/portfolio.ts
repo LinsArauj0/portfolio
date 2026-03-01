@@ -44,6 +44,7 @@ export const PERSONAL_INFO = {
   about: 'Sou um desenvolvedor backend apaixonado por arquitetura de software e código limpo. Atualmente, foco em criar soluções robustas utilizando Node.js e TypeScript, sempre buscando as melhores práticas de mercado como Clean Architecture e SOLID. Estou em constante evolução, transitando de Express para NestJS para entregar sistemas ainda mais modulares e testáveis.',
   links: {
     github: 'https://github.com/LinsArauj0',
-    linkedin: 'https://www.linkedin.com/in/ericklimaaraujo'
+    linkedin: 'https://www.linkedin.com/in/ericklimaaraujo',
+    email: 'erick.lima64@hotmail.com'
   }
 };

@@ -22,7 +22,7 @@ export const Contact = () => {
             <Button href={PERSONAL_INFO.links.github} variant="secondary" icon={Github}>
               GitHub
             </Button>
-            <Button href="mailto:erickemirian@gmail.com" variant="outline" icon={Mail}>
+            <Button href={PERSONAL_INFO.links.email} variant="outline" icon={Mail}>
               E-mail
             </Button>
           </div>
