@@ -5,7 +5,7 @@ import { Button } from "../components/Common";
 
 export const Hero = () => {
   return (
-    <section className="min-h-[85vh] md:min-h-[100dvh] flex flex-col justify-start md:justify-center relative overflow-hidden px-6 pt-20 md:pt-0 pb-12 md:pb-0">
+    <section className="min-h-[80vh] md:min-h-[100dvh] flex flex-col justify-start md:justify-center relative overflow-hidden px-6 pt-20 md:pt-0 pb-12 md:pb-0">
       
       <div className="absolute top-1/4 -left-20 w-64 h-64 bg-emerald-500/10 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl" />

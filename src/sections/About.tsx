@@ -3,7 +3,7 @@ import { SectionTitle } from "../components/Common";
 
 export const About = () => {
   return (
-    <section id="about" className="py-15 md:py-24 px-6">
+    <section id="about" className="py-16 md:py-24 px-6">
       <div className="max-w-4xl mx-auto">
         <SectionTitle subtitle="Um pouco sobre minha trajetória e motivações.">
           Sobre mim
