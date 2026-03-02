@@ -21,11 +21,19 @@ export const PROJECTS: Project[] = [
     githubUrl: 'https://github.com/LinsArauj0/api-finance-node-ts'
   },
   {
-    id: 'api-todo',
+    id: 'api-tasks',
     title: 'API To-Do',
     description: 'API REST de gerenciamento de tarefas com arquitetura em camadas, focada em manutenibilidade, organização e escalabilidade do backend.',
     technologies: ['Node.js', 'TypeScript', 'MySQL', 'Clean Architecture'],
-    githubUrl: 'https://github.com/LinsArauj0/api-todo-node-ts'
+    githubUrl: 'https://github.com/LinsArauj0/api-tasks'
+  },
+  {
+    id: 'api-blog',
+    title: 'API Blog',
+    description:
+      'API REST para gerenciamento de posts e categorias com relacionamento entre tabelas, validação de dados e arquitetura em camadas, focada em organização e boas práticas de backend.',
+    technologies: ['Node.js', 'TypeScript', 'MySQL', 'REST', 'SQL JOIN'],
+    githubUrl: 'https://github.com/LinsArauj0/api-blog'
   }
 ];
 
